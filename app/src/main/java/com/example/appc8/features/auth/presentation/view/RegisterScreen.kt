@@ -246,7 +246,7 @@ fun RegisterScreen (
 
                 Text(
                     color = Color.White,
-                    text = "Login",
+                    text = "Register",
                     fontSize = 20.sp,
                 )
             }

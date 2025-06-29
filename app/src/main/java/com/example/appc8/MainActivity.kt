@@ -8,6 +8,7 @@ import com.example.appc8.core.navegation.NavigationWrapper
 import com.example.appc8.features.auth.presentation.view.LoginScreen
 import com.example.appc8.features.auth.presentation.view.RegisterScreen
 import com.example.appc8.features.home.presentation.view.HomeScreen
+import com.example.appc8.features.home.presentation.view.ProfileUserScreen
 
 class MainActivity: ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,8 +17,9 @@ class MainActivity: ComponentActivity() {
         setContent{
             //LoginScreen()
             //RegisterScreen()
-            HomeScreen()
+            //HomeScreen()
             //NavigationWrapper()
+            ProfileUserScreen()
         }
     }
 }
